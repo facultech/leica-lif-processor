@@ -1,9 +1,9 @@
-// Leica LIF Processor For Z Projections macro by Tal Luigi and Daniel Waiger
+// Leica LIF Processor macro for z-projections by Tal Luigi and Daniel Waiger
 // Based on the ZStacks Projector and Christophe Leterrier's Leica LIF Extractor macros
-// Tested with ImageJ 1.52p, BioFormats 6.3.0
-// Version 1.0 30/09/2019
+// Tested with ImageJ 1.52p and BioFormats 6.3.0
+// Version 1.0.0 09/29/2019
 
-macro "LIF Processor" {
+macro "Leica LIF Processor" {
   // Get the folder name
   var directoryPath = getDirectory("Select a directory");
 
