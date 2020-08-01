@@ -44,7 +44,7 @@ macro "Leica LIF Processor" {
   );
 
   // Create dialog box
-  Dialog.create("Leica Projector");
+  Dialog.create("Leica LIF Processor");
   Dialog.addMessage("\n");
   Dialog.addChoice("Subtract background:", backgroundArray, "None");
   Dialog.addChoice("Filter:", filterArray, "None");
